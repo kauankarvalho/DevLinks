@@ -566,6 +566,10 @@ video {
   height: 100vh;
 }
 
+.h-\[4rem\] {
+  height: 4rem;
+}
+
 .w-\[100\%\] {
   width: 100%;
 }
@@ -580,6 +584,22 @@ video {
 
 .w-\[6\.4rem\] {
   width: 6.4rem;
+}
+
+.w-\[2\.4rem\] {
+  width: 2.4rem;
+}
+
+.w-\[\] {
+  width: ;
+}
+
+.w-\[4rem\] {
+  width: 4rem;
+}
+
+.cursor-pointer {
+  cursor: pointer;
 }
 
 .flex-col {
@@ -651,6 +671,10 @@ video {
   padding: 2.4rem;
 }
 
+.p-\[\] {
+  padding: ;
+}
+
 .px-\[2\.4rem\] {
   padding-left: 2.4rem;
   padding-right: 2.4rem;
@@ -678,11 +702,24 @@ video {
   line-height: 2.4rem;
 }
 
+.text-sm {
+  font-size: 1.4rem;
+  line-height: 2.4rem;
+}
+
 .font-medium {
   font-weight: 500;
+}
+
+.font-normal {
+  font-weight: 400;
 }
 
 .text-text-color-dark-mode {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.underline {
+  text-decoration-line: underline;
 }
