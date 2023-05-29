@@ -1,9 +1,13 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-br" class="text-[62.5%]">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" rel="stylesheet" />
 
     <link rel="stylesheet" href="./dist/style.css" />
 
@@ -11,5 +15,28 @@
     <title>DevLinks</title>
   </head>
 
-  <body></body>
+  <body class="h-screen bg-[url(../src/assets/bg-mobile-dark.jpg)] bg-cover bg-no-repeat">
+    <main>
+      <section class="mt-[5.6rem] flex flex-col">
+        <section class="flex flex-col items-center gap-[0.8rem] p-[2.4rem]">
+          <img
+            class="h-[11.2rem] w-[11.2rem]"
+            src="./src/assets/avatar-dark.png"
+            alt="Imagem do Mayk Brito de oculos."
+          />
+          <span class="font-inter text-md font-medium text-text-color-dark-mode">@maykbrito</span>
+        </section>
+
+        <section class="flex justify-center">
+          <span
+            class="relative block h-[2.4rem] w-[6.4rem] rounded-[999.9rem] border-[0.1rem] border-stroke-color-dark-mode bg-surface-color-dark-mode"
+          >
+            <button
+              class="absolute left-[-0.1rem] top-[-20%] h-[3.2rem] w-[3.2rem] rounded-[999.9rem] bg-[#FFFFFF] bg-[url(../src/assets/moonStars.svg)] bg-center bg-no-repeat"
+            ></button>
+          </span>
+        </section>
+      </section>
+    </main>
+  </body>
 </html>
