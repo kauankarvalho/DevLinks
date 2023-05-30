@@ -1,14 +1,17 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: ["./index.html"],
+  darkMode: "class",
   theme: {
     fontFamily: {
       inter: ["Inter", "sans-serif"],
     },
+
     fontSize: {
       sm: ["1.4rem", "2.4rem"],
       md: ["1.6rem", "2.4rem"],
     },
+
     extend: {
       colors: {
         "text-color-dark-mode": "#FFFFFF",
