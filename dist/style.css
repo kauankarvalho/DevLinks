@@ -594,6 +594,10 @@ video {
   width: 6.4rem;
 }
 
+.max-w-\[58\.8rem\] {
+  max-width: 58.8rem;
+}
+
 @keyframes slideBack {
   0% {
     left: 3.3rem;
@@ -853,4 +857,14 @@ video {
 
 :is(.dark .dark\:hover\:outline-highlight-color-light-mode:hover) {
   outline-color: rgba(0, 0, 0, 0.1);
+}
+
+@media (min-width: 700px) {
+  .min-\[700px\]\:bg-\[url\(\.\.\/src\/assets\/bg-desktop-dark\.jpg\)\] {
+    background-image: url(../src/assets/bg-desktop-dark.jpg);
+  }
+
+  :is(.dark .dark\:min-\[700px\]\:bg-\[url\(\.\.\/src\/assets\/bg-desktop-light\.jpg\)\]) {
+    background-image: url(../src/assets/bg-desktop-light.jpg);
+  }
 }
