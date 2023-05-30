@@ -12,6 +12,23 @@ module.exports = {
       md: ["1.6rem", "2.4rem"],
     },
 
+    keyframes: {
+      slideIn: {
+        "0%": { left: "-0.2rem" },
+        "100%": { left: "3.3rem" },
+      },
+
+      slideBack: {
+        "0%": { left: "3.3rem" },
+        "100%": { left: "-0.2rem" },
+      },
+    },
+
+    animation: {
+      slideIn: "slideIn 0.3s forwards",
+      slideBack: "slideBack 0.3s",
+    },
+
     extend: {
       colors: {
         "text-color-dark-mode": "#FFFFFF",
