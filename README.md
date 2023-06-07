@@ -30,8 +30,8 @@ Você pode visualizar o layout do projeto através [DESSE LINK](https://www.figm
 
 ## 📖 Aprendizado
 
-- Criação de animações com o tailwindcss.
-- Utilização do Dark Mode do tailwindcss.
+- Criação de animações com o tailwindcss;
+- Utilização do Dark Mode do tailwindcss;
 - Prática do conceito Mobile First.
 
 ## 💻 Projeto
