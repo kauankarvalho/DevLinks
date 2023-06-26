@@ -5,6 +5,7 @@ function toggleLightMode() {
   const avatar = document.querySelector(".js-avatar")
 
   html.classList.toggle("dark")
+  button.classList.add("animate-slideBack")
 
   const isLightModeEnabled = html.classList.contains("dark")
 
